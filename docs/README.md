@@ -5,6 +5,8 @@
 - [Security model](SECURITY-MODEL.md) — trust boundaries and safe-use guidance.
 - [Remote nodes](../diri/NODE.md) — run sessions over SSH and tmux.
 - [Packaging](../diri/PACKAGING.md) — build, signing, and notarization.
+- [Official Homebrew cask submission](HOMEBREW_CASK_SUBMISSION.md) — eligibility,
+  release verification, validation, and migration from the maintained tap.
 - [Updates and releases](../diri/UPDATING.md) — updater design and release flow.
 - [Rust engine port](../diri/PORT.md) — status of the cross-platform engine.
 - [Performance](../diri/PERF.md) — budgets and measurement workflow.
