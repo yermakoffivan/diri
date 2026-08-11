@@ -161,7 +161,7 @@ fi
 # clients still use the same socket and Application Support directory.
 if [[ -z "${DIRIJORD_PATH:-}" ]]; then
     for installed_app in "${HOME}/Applications/diri.app" "/Applications/diri.app"; do
-        installed_daemon="${installed_app}/Contents/Resources/bin/dirijord"
+        installed_daemon="${installed_app}/Contents/Resources/bin/dirijord-rs"
         if [[ -x "${installed_daemon}" ]]; then
             launch_environment+=("DIRIJORD_PATH=${installed_daemon}")
             break
